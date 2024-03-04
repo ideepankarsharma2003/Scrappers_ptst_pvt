@@ -46,12 +46,6 @@ Make sure to replace the placeholder API keys and URLs with your actual keys and
 <br>
 <br>
 
-![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/22f2c96d-368c-48c4-8205-65c285ffe7a0) 
-
-<br>
-<br>
-<br>
-
 ![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/3e09733b-fd08-4eae-866c-8eec5f2943cd) 
 
 <br>
