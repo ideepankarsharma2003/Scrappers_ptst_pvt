@@ -7,9 +7,17 @@ import argparse
 parser = argparse.ArgumentParser(description='Scrape Pinterest.')
 parser.add_argument('query', metavar='-q', type=str, nargs='+',
                     help='query')
+parser.add_argument('filename', metavar='-f', type=str, nargs='+',
+                    help='filename')
 args= parser.parse_args()
-query= args.query[1]
-print(query)
+print(f"""
+      args= {args}
+      """)
+query= args.query[0]
+filename= args.filename[0]
+
+print(f"query: '{query}'")
+print(f"filename: '{filename}'")
 
 def run(playwright: Playwright, topic:str) -> None:
     
@@ -32,7 +40,7 @@ def run(playwright: Playwright, topic:str) -> None:
     #       HTML: 
     #       {inner_html}
     #       """)
-    with open(f"temp.html", "wb") as f:
+    with open(filename, "wb") as f:
         f.write(inner_html.encode())
     # ---------------------
     context.close()
