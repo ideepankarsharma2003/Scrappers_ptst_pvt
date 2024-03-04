@@ -34,10 +34,10 @@ Make sure to replace the placeholder API keys and URLs with your actual keys and
 
 ## Demo 
 
-![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/1a35ad85-ce45-4c9b-87a2-eea4db18c89c) <br>
-![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/797cd56b-4afe-4af0-acf2-9ddfe97c0054) <br>
-![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/22f2c96d-368c-48c4-8205-65c285ffe7a0) <br>
-![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/3e09733b-fd08-4eae-866c-8eec5f2943cd) <br>
+- ![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/1a35ad85-ce45-4c9b-87a2-eea4db18c89c) <br>
+- ![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/797cd56b-4afe-4af0-acf2-9ddfe97c0054) <br>
+- ![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/22f2c96d-368c-48c4-8205-65c285ffe7a0) <br>
+- ![image](https://github.com/ideepankarsharma2003/PinterestScrapper/assets/74599435/3e09733b-fd08-4eae-866c-8eec5f2943cd) <br>
 
 
 

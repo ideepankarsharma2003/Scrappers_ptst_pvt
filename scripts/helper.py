@@ -60,8 +60,7 @@ API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-cap
 
 
 def query(filename, tries=0):
-    if tries==3:
-        return 
+    alt_text= ""
     
     with open(filename, "rb") as f:
         data = f.read()
@@ -71,12 +70,14 @@ def query(filename, tries=0):
     try:
         alt_text= response[0]['generated_text']
     except:
-        print("""
-              [Model is Loading, Going for Sleep of 20 seconds]
+        if tries==3:
+            return response
+        
+        print(f"""
+              [Try ({tries+1}): Model is Loading, Going for Sleep of 20 seconds]
               """)
         time.sleep(20)
-        query(filename=filename, tries=tries+1)
-        alt_text= response
+        alt_text= query(filename=filename, tries=tries+1)     
     
     finally:
         return alt_text
