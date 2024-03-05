@@ -29,8 +29,7 @@ def generate_response(main_query, results: list):
     
     ### Constraints: 
     1. The caption should be around the main keyword: {main_query}
-    2. Give more importance to captions with less comments and followers as they are more closer to the actual image description.
-    3. The generated captions should be strictly from the given data of high ranking images.
+    2. Give more importance to captions with less comments and less followers as they are more closer to the actual image description.
     
     Here is the data:
     {input_data}    
